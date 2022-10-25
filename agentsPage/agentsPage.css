@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.58%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  padding-top: 2rem;
+}
+
+.header {
+  display: flex;
+  text-align: left;
+  width: 100%;
+  padding-left: 2.3rem;
+}
+
+.header a {
+  padding: 1rem;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #1a2b4a;
+  font-size: 1.8rem;
+  justify-self: flex-start;
+}
+
+.agent {
+  display: flex;
+  padding: 2rem;
+  border-bottom: 1px solid #e9e8e8;
+  width: 80%;
+  justify-content: space-between;
+}
+.link {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.8rem;
+  color: white;
+  border-radius: 1.5rem;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  text-align: center;
+  letter-spacing: -0.5px;
+}
+
+h1 {
+  /* position: absolute;
+width: 142px;
+height: 20px;
+left: 79px;
+top: 238px; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 2rem;
+  /* identical to box height, or 83% */
+
+  text-align: center;
+  letter-spacing: -0.5px;
+
+  color: #1a2b4a;
+}
+
+.border {
+  border: 1px solid #e9e8e8;
+}
+.agentsnear {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.8rem;
+  line-height: 2rem;
+  /* identical to box height, or 71% */
+
+  text-align: center;
+  letter-spacing: -0.5px;
+
+  color: #1a2b4a;
+}
