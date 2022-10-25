@@ -59,12 +59,8 @@ nav{
  text-align: left;   
 color: #1A2B4A;
 font-size: 20px;
-/* display: flex;
-flex-direction: column; */
-/* justify-content: flex-start; */
 width: 100%;
-/* padding-right: 20rem; */
-/* text-align: left; */
+
 }
 
 .welcome h1, .welcome h2{
@@ -82,19 +78,26 @@ width: 100%;
 border: 1px solid #1A2B4A;
 box-shadow: 4px 8px 4px rgba(0, 0, 0, 0.25);
 border-radius: 16px;
-padding: 2.4rem 3rem;
+padding: 2.4rem 3rem ;
 }
 
 .balance h3{
     padding-top: 1rem;
-padding-bottom: 1.5rem;
 color: #C0BDBD;
 font-size: 18px;
 }
+.balance .kad h3{
+    align-items: center;
+}
 
 #bal{
-    padding-top: 2rem;
-    padding-bottom: 5rem;
+    padding-bottom: rem;
+    font-size: 30px;
+    color: #FFFFFF;
+    /* background-color: #177308; */
+}
+#kbal{
+    padding-bottom: 1.2rem;
     font-size: 30px;
     color: #FFFFFF;
 }
@@ -104,6 +107,7 @@ font-size: 18px;
     justify-content: space-between;
     display: flex;
     align-items: center;
+    margin-top: 1.5rem;
 }
 
 .acct{
