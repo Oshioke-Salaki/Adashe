@@ -14,12 +14,14 @@ body {
     align-items: center;
     font-family: 'Poppins', sans-serif;
     height: 100vh;
-    padding-top: 2rem;
+    padding-top: 4rem;
     padding-left: 2rem;
     padding-right: 2rem;
 }
 
-body img {}
+body img {
+    width: 100%;
+}
 
 body h1 {
     font-style: normal;
