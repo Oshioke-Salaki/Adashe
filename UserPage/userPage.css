@@ -118,7 +118,7 @@ font-weight: 700;
 }
 
 .active{
-    margin-left: 20rem;
+    /* margin-left: 20rem; */
     color: white;
 }
 
