@@ -91,7 +91,6 @@ font-size: 18px;
 }
 
 #bal{
-    padding-bottom: rem;
     font-size: 30px;
     color: #FFFFFF;
     /* background-color: #177308; */
@@ -114,16 +113,33 @@ font-size: 18px;
 padding: 0.2rem  0.8rem 0.2rem 0.8rem;
 background: #BFBDBD;
 border: 0.1rem solid #BFBDBD;
-border-radius: 8px;
-font-size: 12px;
+border-radius: 0.8rem;
+font-size: 1.2rem;
 color: #1A2B4A;
 font-weight: 700;
 
 }
 
+#timer-img{
+    height: 2.3rem ;
+    color: #177308;
+    margin-right: 0.4rem;
+    /* margin-top:1rem ; */
+}
+.time{
+    /* position: absolute; */
+    /* padding-right: 2rem; */
+}
 .active{
     /* margin-left: 20rem; */
     color: white;
+    font-size: 1.2rem;
+    /* padding-right: 3rem; */
+    align-items: center;
+    /* text-align: center; */
+    /* justify-content: center; */
+    display: flex;
+    
 }
 
 .transactions{
