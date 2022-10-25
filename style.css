@@ -13,6 +13,39 @@ body {
     flex-direction: column;
     align-items: center;
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    padding-top: 2rem;
+}
+
+body img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+body h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9.6rem;
+    line-height: 2rem;
+    /* or 21% */
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #1A2B4A;
+    margin-top: 7rem;
+}
+
+body p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.9rem;
+    line-height: 2rem;
+    /* or 105% */
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #1A2B4A;
+    margin-bottom: 2.5rem;
+    margin-top: 5rem;
 }
 
 .home-btns {
@@ -35,4 +68,8 @@ body {
     text-align: center;
     letter-spacing: -0.5px;
     color: #FFFFFF;
+}
+
+.forgotPassword {
+    text-decoration: none;
 }
