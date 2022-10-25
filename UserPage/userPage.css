@@ -73,7 +73,7 @@ border-radius: 16px;
 padding: 2.4rem 0;
 }
 
-h3{
+.balance h3{
     padding-top: 1rem;
 padding-bottom: 1.5rem;
 color: #C0BDBD;
@@ -110,13 +110,110 @@ color: #1A2B4A;
 font-weight: 700;
 }
 
+.acct-act
+
 .transactions{
-    background-color: burlywood;
+    /* background-color: burlywood; */
     width: 90%;
     height: fit-content;
     border-radius: 2rem;
+    background-color: #FFFFFF;
+    border: 1px solid #DADADA ;
 }
 #b{
     color: #1A2B4A;
     padding-right: 20rem;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    font-size:2rem ;
+    padding-bottom: 2rem;
+    font-weight: 500;
+}
+
+
+.transcation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    background: #FFFFFF;
+    border: 1px solid #DADADA;
+}
+
+.transcation-left{
+    display: flex;
+    align-items: center;
+}
+
+.transcation-left img{
+    margin-right: 3.4rem;
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.transcation-left .date{
+    display: flex;
+    flex-direction: column;
+}
+
+.transcation-left .date h5{
+    font-style: regular;
+font-size: 1.2rem;
+line-height: 2rem;
+letter-spacing: -0.5px;
+color: #838C9E;
+}
+
+.transcation-left .date h6{
+    font-style: normal;
+font-weight: 400;
+font-size: 1.2rem;
+line-height: 2rem;
+letter-spacing: -0.5px;
+color: #1A2B4A;
+}
+
+.transcation-right{
+    display: flex;
+    flex-direction: column;
+}
+
+.credit{
+    font-style: normal;
+font-weight: 500;
+font-size: 1.2rem;
+line-height: 2rem;
+/* identical to box height, or 167% */
+letter-spacing: -0.5px;
+
+color: #177308;
+
+margin-bottom: 0.5rem;
+
+}
+
+.debit{
+    font-style: normal;
+font-weight: 500;
+font-size: 1.2rem;
+line-height: 2rem;
+/* identical to box height, or 167% */
+
+letter-spacing: -0.5px;
+
+color: #BA0505;;
+
+margin-bottom: 0.5rem;
+
+}
+
+.transcation-right h4{
+    font-style: normal;
+font-weight: 400;
+font-size: 1.2rem;
+line-height: 2rem;
+/* identical to box height, or 167% */
+letter-spacing: -0.5px;
+
+color: #838C9E;
 }
