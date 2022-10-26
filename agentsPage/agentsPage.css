@@ -68,18 +68,15 @@ body {
 .agent1-sub {
     display: flex;
     flex-direction: column;
-    align-self: center;
 }
 
 .agent1-sub h1 {
     text-align: left;
-    margin-bottom: 1.6rem;
+    margin-bottom: 0.5rem;
     font-style: normal;
     font-weight: 500;
     font-size: 2rem;
     line-height: 2rem;
-    /* identical to box height, or 83% */
-    text-align: center;
     letter-spacing: -0.5px;
     color: #1A2B4A;
 }
@@ -116,4 +113,8 @@ body {
     letter-spacing: -0.5px;
     color: #1a2b4a;
     margin-top: 3.8rem;
+}
+
+.star {
+    width: 9.6rem;
 }
