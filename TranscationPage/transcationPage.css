@@ -71,3 +71,7 @@ body img {
 .withdraw {
     margin-bottom: 12rem;
 }
+
+.withdraw i {
+    margin-right: 1rem;
+}
