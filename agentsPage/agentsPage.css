@@ -16,13 +16,13 @@ body {
     padding-top: 2rem;
     padding-left: 2rem;
     padding-right: 2rem;
+    padding-bottom: 12rem;
 }
 
 .header {
     display: flex;
     text-align: left;
     width: 100%;
-    padding-left: 2.3rem;
 }
 
 .header a {
@@ -48,11 +48,12 @@ body {
 
 .agent {
     display: flex;
-    padding: 2rem 0;
+    padding: 2rem 0.8rem;
     border-bottom: 1px solid #e9e8e8;
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    /* background-color: firebrick; */
 }
 
 .agent-detail {
@@ -64,9 +65,23 @@ body {
     margin-right: 1.6rem;
 }
 
+.agent1-sub {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
 .agent1-sub h1 {
     text-align: left;
     margin-bottom: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 2rem;
+    /* identical to box height, or 83% */
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #1A2B4A;
 }
 
 .link {
@@ -79,28 +94,12 @@ body {
     text-decoration: none;
     font-style: normal;
     font-weight: 500;
-    font-size: 2.4rem;
+    font-size: 2rem;
     line-height: 2rem;
     letter-spacing: -0.5px;
     background: #42a5f5;
     border: 1px solid #42a5f5;
     border-radius: 3.2rem;
-}
-
-h1 {
-    /* position: absolute;
-width: 142px;
-height: 20px;
-left: 79px;
-top: 238px; */
-    font-style: normal;
-    font-weight: 500;
-    font-size: 2.4rem;
-    line-height: 2rem;
-    /* identical to box height, or 83% */
-    text-align: center;
-    letter-spacing: -0.5px;
-    color: #1a2b4a;
 }
 
 .border {
